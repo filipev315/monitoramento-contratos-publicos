@@ -1,3 +1,85 @@
-*.pyc
+# ====================================
+# IGNORAR ARQUIVOS PYTHON COMPILADOS
+# ====================================
 __pycache__/
+*.py[cod]
+*$py.class
+
+# ====================================
+# ARQUIVOS TEMPORÁRIOS DE JUPYTER
+# ====================================
+.ipynb_checkpoints/
+
+# ====================================
+# CONFIGURAÇÕES DE EDITORES
+# ====================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ====================================
+# SISTEMA OPERACIONAL (WINDOWS/MAC)
+# ====================================
+.DS_Store
+Thumbs.db
+
+# ====================================
+# AMBIENTES VIRTUAIS
+# ====================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# ====================================
+# DADOS DE TESTE, SAÍDAS OU ARQUIVOS BAIXADOS
+# ====================================
+data/
+output/
+temp/
+*.csv
+*.tsv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# ====================================
+# LOGS E DUMPS
+# ====================================
+*.log
+logs/
+*.sql
+*.dump
+
+# ====================================
+# DASH OU STREAMLIT
+# ====================================
+.streamlit/
+.cache/
+
+# ====================================
+# ARQUIVOS SENSÍVEIS
+# ====================================
 .env
+.env.*
+*.key
+*.pem
+*.crt
+
+# ====================================
+# DOCKER E DEPLOY
+# ====================================
+*.pid
+docker-compose.override.yml
+
+# ====================================
+# PACOTES E BUILD
+# ====================================
+dist/
+build/
+*.egg-info/
